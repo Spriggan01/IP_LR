@@ -3,34 +3,34 @@ var ask = document.createElement('div');
 var par = document.createElement('p');
 var askInput = document.createElement('input');
 var askBtn = document.createElement("button");
-var circle = document.createElement('div');
+var magicBall = document.createElement('div');
 var littleCircle = document.createElement('div');
-var answer = document.createElement('span');
+var answerForQuest = document.createElement('span');
 
 divContent.classList.add('content');
 ask.classList.add('ask');
 askBtn.classList.add('ask__btn');
-circle.classList.add('circle');
-littleCircle.classList.add('circle__little-circle');
-answer.classList.add('answer');
+magicBall.classList.add('magicBall');
+littleCircle.classList.add('ball__little-circle');
+answerForQuest.classList.add('answerForQuest');
 
 askInput.setAttribute('type','text');
 
 document.body.append(divContent);
 divContent.append(ask);
-divContent.append(circle);
+divContent.append(magicBall);
 
 ask.append(par);
 ask.append(askInput);
 ask.append(askBtn);
 
-circle.append(littleCircle);
-circle.append(answer);
-littleCircle.append(answer);
-par.innerHTML='Задайте ваш вопрос';
-askBtn.innerHTML='Задать вопрос';
+magicBall.append(littleCircle);
+magicBall.append(answerForQuest);
+littleCircle.append(answerForQuest);
+par.innerHTML='Ask your question';
+askBtn.innerHTML='Ask question';
 
-var otvetu = ['Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest dreams.',
+var otvetuNaVopros = ['Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest dreams.',
   'There is a good chance.', 'Quite likely.', 'I think so.', 'It is certain.',
   'I hope so.', 'Never!', 'You may rely on it.', 'As I see it, yes', 'Most likely.',
   'Better not tell you now.', 'Hell, yes.', 'Signs point to yes.', 'My reply is no.',
@@ -39,13 +39,12 @@ var otvetu = ['Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest dre
   'Without a doubt.', 'Yes - definetly.'];
 askBtn.onclick = function Predict () {
     if(askInput.value.length){
-        circle.classList.add('circleShake');
-        var ans = otvetu[Math.floor(Math.random() * otvetu.length)];
-        answer.className="answer";
-        answer.innerHTML = ans;
-        circle.addEventListener( "animationend",  function() {
-        circle.classList.remove("circleShake");
-        answers.classList.remove("answer")});
+        magicBall.classList.add('ballShake');
+        var ans = otvetuNaVopros[Math.floor(Math.random() * otvetuNaVopros.length)];
+        answerForQuest.className="answerForQuest";
+        answerForQuest.innerHTML = ans;
+        magicBall.addEventListener( "animationend",  function() {
+        magicBall.classList.remove("ballShake");
+        answersForQuest.classList.remove("answerForQuest")});
     }
 }
-
