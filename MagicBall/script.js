@@ -24,13 +24,13 @@ ask.append(par);
 ask.append(askInput);
 ask.append(askBtn);
 
-circle.append(littleCircle);
-circle.append(answerForQuest);
+ball.append(littleCircle);
+ball.append(answerForQuest);
 littleCircle.append(answerForQuest);
 par.innerHTML='Ask your question';
 askBtn.innerHTML='Ask question';
 
-var answers = ['Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest dreams.',
+var otvetuNaVopr = ['Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest dreams.',
   'There is a good chance.', 'Quite likely.', 'I think so.', 'It is certain.',
   'I hope so.', 'Never!', 'You may rely on it.', 'As I see it, yes', 'Most likely.',
   'Better not tell you now.', 'Hell, yes.', 'Signs point to yes.', 'My reply is no.',
@@ -39,12 +39,12 @@ var answers = ['Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest dr
   'Without a doubt.', 'Yes - definetly.'];
 askBtn.onclick = function Predict () {
     if(askInput.value.length){
-        circle.classList.add('ballShake');
-        var ans = answers[Math.floor(Math.random() * answers.length)];
-        answer.className="answerForQuest";
-        answer.innerHTML = ans;
-        circle.addEventListener( "animationend",  function() {
-        circle.classList.remove("ballShake");
+        ball.classList.add('ballShake');
+        var ans = otvetuNaVopr[Math.floor(Math.random() * answers.length)];
+        answerForQuest.className="answerForQuest";
+        answerForQuest.innerHTML = ans;
+        ball.addEventListener( "animationend",  function() {
+        ball.classList.remove("ballShake");
         answers.classList.remove("answerForQuest")});
     }
 }
