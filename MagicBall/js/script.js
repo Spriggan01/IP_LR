@@ -11,7 +11,7 @@ divContent.classList.add('content');
 ask.classList.add('ask');
 askBtn.classList.add('ask__btn');
 magicBall.classList.add('magicBall');
-littleCircle.classList.add('ball__little-circle');
+littleCircle.classList.add('magicBall__little-circle');
 answerForQuest.classList.add('answerForQuest');
 
 askInput.setAttribute('type','text');
