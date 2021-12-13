@@ -1,0 +1,47 @@
+body{
+background:url("backg.jpeg");
+background-size:cover;
+}
+
+.zag{
+color:red;
+font-size:30px;
+font-family:Courier New;
+text-decoration:underline;
+text-align:center;
+text-shadow: #DC143C 5px 5px 5px;
+}
+.gam{
+color:blue;
+font-size:20px;
+font-family:Courier New;
+text-decoration:underline;
+display:table-cell;
+padding-left:100px;
+padding-top:15px;
+}
+.gam3{
+float:right;
+margin-right:100px;
+color:blue;
+font-size:20px;
+font-family:Courier New;
+text-decoration:underline;
+}
+.l, .r{
+width:300px;
+height:300px;
+-webkit-box-shadow: 0 0 30px 2px #00FA9A;
+}
+.l{
+margin-left:300px;
+}
+.r{
+float:right;
+margin-right:150px;
+}
+
+
+span{
+text-shadow: blue 5px 5px 5px;
+}
