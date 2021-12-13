@@ -1,0 +1,57 @@
+<div id="arrow-next-lvl" class="arrow-next-lvl notshows"><a href=""><img src="arrow.png" alt=""></a></div>
+
+
+window.addEventListener( 'DOMContentLoaded', function () {
+	
+const buttonRoolDice = document.querySelector( '.dice-roll' );
+
+    function rollDice () {
+
+        const diceSide1 = document.getElementById( 'dice-side-1' );
+        const diceSide2 = document.getElementById( 'dice-side-2' );
+	const diceSide3 = document.getElementById( 'dice-side-3' );
+        const diceSide4 = document.getElementById( 'dice-side-4' );
+	const status = document.getElementById( 'status' );
+
+        const side1 = Math.floor( Math.random() * 6 ) + 1;
+        const side2 = Math.floor( Math.random() * 6 ) + 1;
+	const side3 = Math.floor( Math.random() * 6 ) + 1;
+        const side4 = Math.floor( Math.random() * 6 ) + 1;
+
+        const diceTotal12 = side1 + side2;
+	const diceTotal34 = side3 + side4;
+
+        diceSide1.innerHTML = side1;
+        diceSide2.innerHTML = side2;
+	diceSide3.innerHTML = side3;
+        diceSide4.innerHTML = side4;
+}
+	status.innerHTML = 'You and your oponent rolled ' + diceTotal12 + '.' + "It's draw!";
+
+	if ( diceTotal12 > diceTotal34 ) {
+		status.innerHTML = ' Yup! You win!';}
+	else if ( diceTotal12 < diceTotal34 ) {
+		status.innerHTML = 'You rolled ' + diceTotal12 + '.' + 'And your oponent rolled ' + diceTotal34 + '.' + 'So you lose. :(';} 
+
+}
+
+buttonRoolDice.addEventListener( 'click', rollDice, false );
+
+}, false);
+
+
+<div class="column">
+<div id="dice-side-1" class="dice">0</div>
+<div id="dice-side-2" class="dice">0</div>
+</div>
+<div class="column">
+<button type="button" class="dice-roll">roll dice</button></div>
+
+
+<div class="column">
+<div id="dice-side-3" class="dice">0</div>
+<div id="dice-side-4" class="dice">0</div>
+</div>
+
+
+<div class="column"><br/><br/><h2 id="status"></h2></div>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+<title>Slot Machine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<html>
+<body onload="toggleAudio()">
+<script src="playerName.js"></script>
+<main>
+<section id="status">WELCOME!</section>
+<section id="Slots">
+<div id="slot1" class="a1"></div>
+<div id="slot2" class="a1"></div>
+<div id="slot3" class="a1"></div>
+</section>
+<section onclick="doSlot()" id="Gira">TAKE A SPIN!</section>
+<section id="options">
+<img src="img/audioOn.png" id="audio" class="option" onclick="toggleAudio()" />
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
