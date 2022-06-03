@@ -1,0 +1,10 @@
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\bin\x86\Release\WindowsFormsApp1.exe.config
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\bin\x86\Release\WindowsFormsApp1.exe
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\bin\x86\Release\WindowsFormsApp1.pdb
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\obj\x86\Release\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\obj\x86\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\obj\x86\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\obj\x86\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\obj\x86\Release\WindowsFormsApp1.exe
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\obj\x86\Release\WindowsFormsApp1.pdb
+C:\Users\Asus\Desktop\курсач\WindowsFormsApp1\WindowsFormsApp1\obj\x86\Release\TaskManager.Form1.resources
