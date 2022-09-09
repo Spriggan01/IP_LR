@@ -1,1 +1,1 @@
-# Sprigan01.github.io
+# Spriggan01.github.io
