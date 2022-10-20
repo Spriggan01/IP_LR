@@ -10,6 +10,14 @@
 body, html {
     width: 100%;
 }
+/**************************/
+/* Styling Mobile Version */
+/**************************/
+@media screen and (max-width: 480px) {
+    .class {
+        font-size: 10px;
+    }
+}
 /****************/
 /* Styling Logo */
 /****************/
