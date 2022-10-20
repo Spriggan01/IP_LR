@@ -14,8 +14,12 @@ body, html {
 /* Styling Mobile Version */
 /**************************/
 @media screen and (max-width: 480px) {
-    .class {
-        font-size: 10px;
+    . {
+        font-size: 5px;
+    }
+    img {
+        width: -50%;
+        height: -50%;
     }
 }
 /****************/
