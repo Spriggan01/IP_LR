@@ -10,6 +10,7 @@ body, html {
 header {
     background-color: #f4f1f1;
     font-family: Roboto;
+    height: 500px;
 }
 nav a {
     text-decoration: none;
