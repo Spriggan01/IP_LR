@@ -1,82 +1,16 @@
-/*********/
-/* Header and NavBar */
-/*********/
-body, html {
-    background-color: #f5f5f5;
-}
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    nav a {
-        font-size: 5px;
+a {
+    font-size:14px;
+    font-weight:700
+  }
+  .superNav {
+    font-size:13px;
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
     }
-    p {
-        font-size: 5px;
-        font-weight: 100;
-    }
-}
-/*********/
-/* Header and NavBar */
-/*********/
-header {
-    background-color: #f4f1f1;
-    font-family: Roboto;
-    height: 500px;
-}
-nav a {
-    text-decoration: none;
-    font-family: Inter;
-    font-size: 24px;
-    color: #000000;
-    /*padding-right: 20px;*/
-}
-nav li {
-    list-style-position: inside;
-    font-family: Inter;
-    /*padding-right: 40px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;*/
-}
-
-.top-menu li {
-    display: inline-block;
-}
-.top-menu li.active {
-    color: #000;
-}
-
-.top-menu a {
-    color: #000000;
-}
-p {
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-}
-/*************************/
-/* Styling search button */
-/*************************/
-
-/*********/
-/* Main */
-/*********/
-.main {
-    font-family: Roboto;
-}
-/*********/
-/* Footer */
-/*********/
-footer {
-    background-color: #d9d9d9;
-    font-family: Inter;
-}
-/*********/
-/* Fonts */
-/*********/
-@font-face {
-    font-family: Inter; /* Гарнитура шрифта */
-    src: url(fonts/Inter-Light.ttf); /* Путь к файлу со шрифтом */
-}
-@font-face {
-    font-family: Roboto; /* Гарнитура шрифта */
-    src: url(fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
-}
+  }
