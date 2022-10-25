@@ -17,7 +17,7 @@ nav a {
     font-family: Inter;
     font-size: 24px;
     color: #000000;
-    padding-right: 20px;
+    /*padding-right: 20px;*/
 }
 nav ul {
     
@@ -40,6 +40,11 @@ nav li {
 
 .top-menu a {
     color: #000000;
+}
+p {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
 }
 /*************************/
 /* Styling search button */
