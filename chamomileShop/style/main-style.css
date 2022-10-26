@@ -1,0 +1,53 @@
+a {
+    font-size:24px;
+    font-weight:700;
+    font-family: Inter;
+}
+p {
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Roboto;
+}
+header {
+    background-color: #f4f1f1;
+}
+footer {
+    background-color: #d9d9d9;
+}
+.superNav {
+    font-size:13px;
+}
+.form-control {
+    outline:none !important;
+    box-shadow: none !important;
+}
+@media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+}
+/**/
+.hidden {
+    display: none;
+}
+form {
+    font-family: Inter;
+    padding: 20px;
+    background-color: white;
+    max-width: 320px;
+}
+input {
+    background-color: #F0F0F0;
+    border: none;
+}
+/*********/
+/* Fonts */
+/*********/
+@font-face {
+    font-family: Inter; /* Гарнитура шрифта */
+    src: url(fonts/Inter-Light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Roboto; /* Гарнитура шрифта */
+    src: url(fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+}
