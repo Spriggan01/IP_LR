@@ -1,4 +1,4 @@
-_Labs for IP that contain:_
+_Labs for IP that contains:_
 - 21;
 - craps;
 - magic ball;
