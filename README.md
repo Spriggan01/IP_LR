@@ -3,6 +3,6 @@ _Labs for IP that contains:_
 - craps;
 - magic ball;
 - slot-machine;
-- ind tsk (contain all of tasks).
+- ind tsk (contains all tasks).
 ***
 > Spriggan01.github.io
